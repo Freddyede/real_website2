@@ -18,3 +18,5 @@
 src/Entity/
 
 src/Repository/
+
+src/Migrations/
