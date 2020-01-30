@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <meta charset="UTF-8">
-        <title>{% block title %}Welcome!{% endblock %}</title>
-        {% block stylesheets %}{% endblock %}
+        <title>LiveBook - {% block title %}title{% endblock %}</title>
+        {% block css %}{% endblock %}
+        <link rel="shortcut icon" href="{{asset('asset/favicons/logo.png')}}" type="image/x-icon"/>
     </head>
     <body>
-        {% block body %}{% endblock %}
-        {% block javascripts %}{% endblock %}
+        {% block content %}{% endblock %}
+        {% block js %}{% endblock %}
     </body>
 </html>
