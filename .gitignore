@@ -25,3 +25,5 @@ src/Security/
 
 src/Todos/
 config/packages/
+
+.idea/
